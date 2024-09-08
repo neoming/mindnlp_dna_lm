@@ -1,0 +1,45 @@
+train dataset info:
+dataset column: ['sequence', 'name', 'label']
+dataset size: 13468
+dataset batch size: 1
+
+test dataset info:
+dataset column: ['sequence', 'name', 'label']
+dataset size: 1497
+dataset batch size: 1
+
+[Tensor(shape=[], dtype=String, value= 'TCACTTCGATTATTGAGGCAGTCTTCATTAAAGTTTATTACAATGGATATGGTATCACCAGTCTTGAACCTACAATCATCTATTTTAGGTGAGCTCGTAGGCATTATTGGAAAAGTGTTCTTTCTCTTAATAGAAGAGATTAAATACCCGATAATCACACCCAAAATTATTGTGGATGCCCAGATATCTTCTTGGTCATTGTTTTTTTTCGCTTCAATCTGTAATCTCTCTGCAAAATTTCGGGAGCCAATAGTGACAACATCGTCAATAATAAGTTTGATGGAATCGGAAAAAGATCTTAAAAATGTAAATGAGTATTTCCAAATAATGGCCAAAATGCTCTTTATATTGGAAAATAAAATAGTTGTTTCGCTCTTCGTAGTATTTAACATTTCCGTTCTTATCATTGTAAAGTCTGAGCCATATTCATATGGAAAAGTGCTTTTTAAACCTAGTTCCTCCATATTTTAGTTTTTTATCGATATTGGAAAAAAAAGAGC'), Tensor(shape=[], dtype=String, value= 'YBR063C_YBR063C_367930|0'), Tensor(shape=[], dtype=Int64, value= 0)]
+train dataset info:
+dataset column: ['sequence', 'name', 'label']
+dataset size: 11448
+dataset batch size: 1
+
+valid dataset info:
+dataset column: ['sequence', 'name', 'label']
+dataset size: 2020
+dataset batch size: 1
+
+train dataset info:
+dataset column: ['sequence', 'label']
+dataset size: 12
+dataset batch size: 16
+
+valid dataset info:
+dataset column: ['sequence', 'label']
+dataset size: 12
+dataset batch size: 16
+
+test dataset info:
+dataset column: ['sequence', 'label']
+dataset size: 12
+dataset batch size: 16
+
+[Tensor(shape=[16, 498], dtype=Int64, value=
+[[   2, 4724,  510 ... 2970, 3674,    3],
+ [   2, 4724, 1400 ... 3353, 1109,    3],
+ [   2, 4724, 3958 ... 1676, 2594,    3],
+ ...
+ [   2, 4724, 1058 ...    5,    5,    3],
+ [   2, 4724, 1348 ... 1502, 1897,    3],
+ [   2, 4724,  477 ... 1124,  386,    3]]), Tensor(shape=[16], dtype=Int64, value= [0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1])]
+{'loss': 0.794, 'learning_rate': 1.9666666666666666e-05, 'epoch': 0.08}
